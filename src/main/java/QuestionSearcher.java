@@ -14,10 +14,11 @@ public class QuestionSearcher {
 
     public static void selectQuestion(String questionNumber) {
         System.out.println(questionNumber);
-        try {
+        if (questionMap.containsKey(questionNumber)) {
             questionMap.get(questionNumber).run();
-        } catch (NullPointerException e) {
+        }else {
             questionMap.get("err").run();
         }
+
     }
 }

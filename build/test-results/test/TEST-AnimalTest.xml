@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AnimalTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-11-26T03:34:53" hostname="brainsadminnoMacBook-Pro.local" time="0.035">
+<testsuite name="AnimalTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-11-26T05:28:14" hostname="brainsadminnoMacBook-Pro.local" time="0.039">
   <properties/>
-  <testcase name="createAnimalArrayTest" classname="AnimalTest" time="0.035">
-    <failure message="org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;Cat@3c85c8b9&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;Cat@3c85c8b9&gt; but was: &lt;null&gt;
+  <testcase name="createAnimalArray" classname="AnimalTest" time="0.039">
+    <failure message="org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;Cat@370da898&gt; but was: &lt;Cat@7e331df0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;Cat@370da898&gt; but was: &lt;Cat@7e331df0&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at org.junit.jupiter.api.AssertArrayEquals.failArraysNotEqual(AssertArrayEquals.java:432)
 	at org.junit.jupiter.api.AssertArrayEquals.assertArrayElementsEqual(AssertArrayEquals.java:392)
@@ -10,7 +10,7 @@
 	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:162)
 	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:158)
 	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1435)
-	at AnimalTest.createAnimalArrayTest(AnimalTest.java:14)
+	at AnimalTest.createAnimalArray(AnimalTest.java:14)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
