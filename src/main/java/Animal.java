@@ -5,7 +5,7 @@ public class Animal {
     public int Age;
 
     public void showProfile() {
-        System.out.println("名前は、" + Name + "、" + Age + "歳です。");
+        System.out.println("名前は、" + Name + " " + Age + "歳です。");
     }
 
     public void speak() {
