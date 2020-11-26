@@ -15,16 +15,16 @@ public class Animal {
     public Animal[] createAnimalArray(int size) {
         Animal[] animal = new Animal[size];
         IntStream.range(0, size).forEach(i -> {
-            if (size % 2 == 0) {
-                new Cat();
+            if (i % 2 == 0) {
+                animal[i] = new Cat();
             } else {
-                new Dog();
+                animal[i] = new Dog();
             }
         });
         return animal;
     }
 
-    public void MakeAnimalSpeak(Animal[] animal) {
+    public void MakeAnimalsSpeak(Animal[] animal) {
         IntStream.range(0, animal.length).forEach(i -> animal[i].speak());
     }
 }

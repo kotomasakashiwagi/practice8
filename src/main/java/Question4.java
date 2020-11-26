@@ -3,6 +3,6 @@ public class Question4 implements Question {
     public void run() {
         Animal animal = new Animal();
         Animal[] animalArray = animal.createAnimalArray(4);
-        animal.MakeAnimalSpeak(animalArray);
+        animal.MakeAnimalsSpeak(animalArray);
     }
 }
